@@ -10,7 +10,7 @@
 
 (def ^:dynamic config {:clojars-url "clojars@clojars.org:"})
 
-(def *scm-systems*
+(def ^:dynamic *scm-systems*
      {:git {:add    ["git" "add"]
             :tag    ["git" "tag"]
             :commit ["git" "commit"]
